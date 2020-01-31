@@ -44,23 +44,31 @@
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
+DuckTrain/SourceArt/**/*.png
+DuckTrain/SourceArt/**/*.tga
 **/DuckTrain/SourceArt/**/*.png
 **/DuckTrain/SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
+DuckTrain/Binaries/*
+DuckTrain/Plugins/*/Binaries/*
 **/DuckTrain/Binaries/*
 **/DuckTrain/Plugins/*/Binaries/*
 
 # Builds
 Build/*
+DuckTrain/Build/*
 **/DuckTrain/Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
 Build/*/**
 !Build/*/PakBlacklist*.txt
+!DuckTrain/Build/*/
+DuckTrain/Build/*/**
+!DuckTrain/Build/*/PakBlacklist*.txt
 !**/DuckTrain/Build/*/
 **/DuckTrain/Build/*/**
 !**/DuckTrain/Build/*/PakBlacklist*.txt
@@ -80,8 +88,11 @@ DuckTrain/Saved/*
 Intermediate/*
 Plugins/*/Intermediate/*
 DuckTrain/Intermediate/*
+DuckTrain/Plugins/*/Intermediate/*
+DuckTrain/Intermediate/*
 **/DuckTrain/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+DuckTrain/DerivedDataCache/*
 **/DuckTrain/DerivedDataCache/*
